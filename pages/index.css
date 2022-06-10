@@ -46,18 +46,12 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #151211;
-    background-color: #FFC93E;
-    text-decoration: line-through;
-    border-radius: 135px;
+    color: white;
+    text-decoration: none;
 }
 a:active {
     color: white;
     text-decoration: none;
-}
-a {
-    border-radius: 135px;
-    transition: background-color 0.5s ease-in-out;
 }
 
 .page {
@@ -257,7 +251,7 @@ q::selection {
      margin: 0 auto 210px auto;
      width: 100vw;
      max-width: 1920px;
-     grid-template: min-content min-content 210px / 1fr;
+     grid-template: min-content min-content 100px / 1fr;
      grid-gap: 20px;
  }
 
@@ -294,7 +288,7 @@ q::selection {
  }
 
  .fund__vr {
-     height: 524px;
+     height: 415px;
      padding-left: 105px;
      grid-column: 1;
      grid-row: 3;
@@ -361,6 +355,13 @@ q::selection {
     border-radius: 135px;
     margin-bottom: 15px;
     margin-right: 15px;
+    transition: background-color 0.5s ease-in-out;
+ }
+
+ .source__flex-cell:hover {
+     background-color: #FFC93E;
+     color: #151211;
+     text-decoration: line-through;
  }
 
  .source__cell-icon {
@@ -491,11 +492,11 @@ q::selection {
         padding-top: 50px;
     }
     .fund__vr {
-        height: 378px;
+        height: 280px;
         width: 3px;
     }
     .fund {
-        grid-template: min-content min-content 130px / 1fr;
+        grid-template: min-content min-content 35px / 1fr;
     }
 
 }
@@ -547,10 +548,10 @@ q::selection {
 
     .fund {
         margin: 0 auto 45px auto;
-        grid-template: min-content min-content 50px / 1fr;
+        grid-template: min-content min-content 30px / 1fr;
     }
     .fund__vr {
-        height: 129px;
+        height: 110px;
         padding-left: 30px;
         width: 3px;
     }
