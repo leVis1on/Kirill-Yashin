@@ -525,7 +525,7 @@ q::selection {
         width: 3px;
     }
     .profile__hr {
-        padding-left: 121px;
+        padding-left: 114px;
         width: 50px;
         height: 3px;
     }
@@ -539,7 +539,7 @@ q::selection {
         padding-left: 35px;
     }
     .profile__numbers {
-        padding-left: 172px;
+        padding-left: 160px;
     }
     .profile__top {
         background-position-x: -430px;
