@@ -310,6 +310,7 @@ q::selection {
      background-image: url(../images/K\ 25_04_2022-39\ 1.png);
      background-size: cover;
      background-position: center;
+     max-width: 1920px;
  }
 
  .fund__background-2 {
@@ -321,6 +322,7 @@ q::selection {
     background-image: url(../images/K\ 25_04_2022-83\ 1.png);
     background-size: cover;
     background-position: center;
+    max-width: 1920px;
 }
 
  .source {
@@ -461,10 +463,10 @@ q::selection {
         padding-left: 35px;
     }
     .profile__about {
-        padding-right: 20px;
+        padding-right: 35px;
     }
     .profile__vr {
-        padding-right: 20px;
+        padding-right: 35px;
     }
     .profile__hr {
         padding-left: 129px;
@@ -517,19 +519,18 @@ q::selection {
     }
     .profile__about {
         grid-column: 1;
-        padding-left: 86%;
     }
     .profile__vr {
         grid-column: 1;
         width: 3px;
     }
     .profile__hr {
-        padding-left: 129px;
+        padding-left: 121px;
         width: 50px;
         height: 3px;
     }
     .profile__about-text {
-        padding-right: 20px;
+        padding-right: 35px;
         grid-column: 1;
         justify-self: right;
         margin-top: 140px;
@@ -538,7 +539,7 @@ q::selection {
         padding-left: 35px;
     }
     .profile__numbers {
-        padding-left: 190px;
+        padding-left: 172px;
     }
     .profile__top {
         background-position-x: -430px;
