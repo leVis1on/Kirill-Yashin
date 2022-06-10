@@ -503,7 +503,7 @@ q::selection {
 
 @media (max-width: 780px) {
     .profile {
-        grid-template: min-content min-content 710px min-content min-content 65px / 1fr;
+        grid-template: min-content min-content 710px 25px 0px 65px / 1fr;
         background-position-x: -430px;
         margin: 0 auto 350px auto;
     }
@@ -524,6 +524,9 @@ q::selection {
     .profile__vr {
         grid-column: 1;
         width: 3px;
+        grid-row-start: 3;
+        grid-row-end: 7;
+        height: 808px;
     }
     .profile__hr {
         padding-left: 114px;
