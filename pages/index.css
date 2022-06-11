@@ -503,16 +503,17 @@ q::selection {
 
 @media (max-width: 780px) {
     .profile {
-        grid-template: min-content min-content 710px 25px 0px 65px / 1fr;
-        background-position-x: -430px;
+        grid-template: min-content min-content 230px 100px 0px 65px / 1fr;
+        background-position-x: -230px;
         margin: 0 auto 350px auto;
     }
     .profile__header-text_1 {
         padding-left: 35px;
+        padding-top: 26px;
     }
     .profile__header-text_2 {
         grid-column: 1;
-        padding: 117px 0 0 35px;
+        padding: 70px 0 0 35px;
         text-align: left;
     }
     .profile__job {
@@ -526,7 +527,8 @@ q::selection {
         width: 3px;
         grid-row-start: 3;
         grid-row-end: 7;
-        height: 808px;
+        height: 440px;
+        padding-top: 15px;
     }
     .profile__hr {
         padding-left: 114px;
@@ -546,7 +548,7 @@ q::selection {
         padding-left: 160px;
     }
     .profile__top {
-        background-position-x: -430px;
+        background-position-x: -230px;
     }
 
     .fund {
